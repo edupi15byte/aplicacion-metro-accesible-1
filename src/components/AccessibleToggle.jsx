@@ -6,7 +6,8 @@ function AccessibleToggle({ enabled, onToggle }) {
       onClick={onToggle}
       aria-pressed={enabled}
     >
-      Modo accesible
+      <span aria-hidden="true">Aa</span>
+      Accesible
     </button>
   )
 }

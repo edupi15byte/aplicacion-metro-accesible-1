@@ -1,8 +1,7 @@
 const navItems = [
   { id: 'home', label: 'Inicio', icon: 'IN' },
   { id: 'trip', label: 'Mi viaje', icon: 'MV' },
-  { id: 'search', label: 'Buscar', icon: 'BU' },
-  { id: 'alerts', label: 'Alertas', icon: '!' },
+  { id: 'alerts', label: 'Alertas', icon: 'AL' },
 ]
 
 function BottomNav({ activeView, onChange }) {
